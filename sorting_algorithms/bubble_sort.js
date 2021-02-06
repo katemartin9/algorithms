@@ -1,4 +1,4 @@
-// O(n^2), if nearly sorten then O(n)
+// O(n^2), if nearly sorted then O(n)
 function bubbleSort(arr){
     for (var i = arr.length; i > 0;i--) {
         for (var j = 0; j < i-1; j++) { // i-1 helps to avoid comparing the end as it's already sorted
