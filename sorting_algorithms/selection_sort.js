@@ -1,3 +1,5 @@
+// for each i iteration loops through the rest of the arr to check if the i is the lowest val 
+// if not it performs a swap
 function selecetionSort (arr) {
     
     for (var i = 0; i<arr.length; i++) {
